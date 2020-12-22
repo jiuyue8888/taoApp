@@ -59,14 +59,7 @@
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
-  "postcss": {
-      "plugins": {
-        "autoprefixer": {},
-        "postcss-px2rem": {
-          "remUnit": 75
-        }
-      }
-    },
+  
   "browserslist": [
     "> 1%",
     "last 2 versions",

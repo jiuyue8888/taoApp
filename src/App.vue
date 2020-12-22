@@ -16,6 +16,10 @@
 		padding: 0;
 		margin: 0;
 	}
+	img{
+		max-width: 100%;
+		vertical-align: top;
+	}
 
 	#app {
 		font-family: 'Avenir', Helvetica, Arial, sans-serif;
