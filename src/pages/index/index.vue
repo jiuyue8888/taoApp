@@ -1,5 +1,5 @@
 <template>
-	<div :class="pc?'mian pc':'mian'">
+	<div :class="pc?'mian pc':'mian'" >
 		<div class="content">
 		<div class="icons">
 			<svg-icon icon-class="tianmao" :size="pc?size[0][1]:size[0][0]" class="tianmao animated fadeInUp1 infinite"/>
@@ -42,9 +42,10 @@
 		name: 'main',
 		data() {
 			return {
-				pc:window.innerWidth>750,
+				pc:window.innerWidth>450,
 				screenWidth: '',
 				        screenHeight: '',
+						wid:'',
 				size:[
 					['56px,69px','0.56rem,0.69rem'],
 					['54px,58px','0.54rem,0.58rem'],
@@ -70,11 +71,12 @@
 		    	//窗口宽度变化
 		      	screenWidth (val) {
 		          console.log(val)
-				  this.pc=val>750
+				  this.pc=val>450
 		      	},
 		      	//窗口高度变化
 		      	screenHeight (val) {
 		          console.log(val)
+				  this.wid = val*3.75/6.67
 		      }    
 		  	},
 		mounted() {
@@ -85,6 +87,7 @@
 					this.pc=document.body.clientWidth>750
 		          this.screenWidth = document.body.clientWidth;
 		          this.screenHeight = document.body.clientHeight;
+				  this.wid = 100*3.75/6.67
 		        })();
 		      };
 		    },
@@ -97,6 +100,7 @@
 		position: relative;
 		width: 750px;
 		min-height: 100vh;
+		
 		
 		overflow: hidden;
 		background: url(../../assets/bg.jpg) no-repeat 0 0 #5608a9;
@@ -259,12 +263,13 @@
 	}
 	.pc{
 		width: 3.75rem;
+		height: 6.67rem;
 		margin: 0 auto;
 	}
 	.pc .content{
 		position: relative;
 		width: 100%;
-		height: calc(100vh - 0.5rem);
+		height: calc(100% - 0.5rem);
 		overflow: hidden;
 		
 	}
