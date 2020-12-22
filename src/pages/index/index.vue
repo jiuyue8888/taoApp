@@ -1,6 +1,6 @@
 <template>
 	<div class="mian">
-		<svg-icon icon-class="dz" />
+		<svg-icon icon-class="bg" size="100%,11rem"/>
 	</div>
 </template>
 

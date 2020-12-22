@@ -2,8 +2,8 @@
   <svg
     :class="svgClass"
     aria-hidden="true"
-    :width="size.split(',')[0] + 'px'"
-    :height="size.split(',')[1] + 'px'"
+    :width="size.split(',')[0]"
+    :height="size.split(',')[1]"
   >
     <use :xlink:href="iconName"></use>
   </svg>
