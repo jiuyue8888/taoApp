@@ -43,6 +43,8 @@
 		data() {
 			return {
 				pc:window.innerWidth>750,
+				screenWidth: '',
+				        screenHeight: '',
 				size:[
 					['56px,69px','0.56rem,0.69rem'],
 					['54px,58px','0.54rem,0.58rem'],
@@ -63,7 +65,29 @@
 		created(){
 			
 			
-		}
+		},
+		watch:{
+		    	//窗口宽度变化
+		      	screenWidth (val) {
+		          console.log(val)
+				  this.pc=val>750
+		      	},
+		      	//窗口高度变化
+		      	screenHeight (val) {
+		          console.log(val)
+		      }    
+		  	},
+		mounted() {
+		      this.screenWidth = document.body.clientWidth;
+		      this.screenHeight = document.body.clientHeight;
+		      window.onresize = () => {
+		        return (() => {
+					this.pc=document.body.clientWidth>750
+		          this.screenWidth = document.body.clientWidth;
+		          this.screenHeight = document.body.clientHeight;
+		        })();
+		      };
+		    },
 	}
 </script>
 
