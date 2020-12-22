@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>形状</title>
+    <g id="pc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="12" transform="translate(-916.000000, -86.000000)" fill="#FF127D" fill-rule="nonzero">
+            <g id="编组-41" transform="translate(852.000000, 59.000000)">
+                <g id="编组-26" transform="translate(0.000000, 26.500000)">
+                    <g id="形状-2" transform="translate(64.000000, 0.500000)">
+                        <path d="M12.9998526,9 L12.9998526,13.571318 L28.6,13.571318 L28.6,9 L12.9998526,9 Z M12.9998526,16 L12.9998526,20.571318 L28.6,20.571318 L28.6,16 L12.9998526,16 Z M12.9998526,23 L12.9998526,27.571318 L28.6,27.571318 L28.6,23 L12.9998526,23 Z M7,13.571318 L10.5999598,13.571318 L10.5999598,9 L7,9 L7,13.571318 Z M7,20.571318 L10.5999598,20.571318 L10.5999598,16 L7,16 L7,20.571318 Z M7,27.571318 L10.5999598,27.571318 L10.5999598,23 L7,23 L7,27.571318 Z" id="形状"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

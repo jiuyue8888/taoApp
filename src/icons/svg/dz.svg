@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>椭圆形 2</title>
+    <defs>
+        <circle id="path-1" cx="17.5" cy="17.5" r="17.5"></circle>
+        <filter x="-37.1%" y="-31.4%" width="174.3%" height="174.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.620329484   0 0 0 0 0.44248121   0 0 0 0 0.489283387  0 0 0 0.149393575 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="pc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="桃子搜索-pc-06" transform="translate(-867.000000, -63.000000)">
+            <g id="编组-53-+-编组-53备份-+-编组-53备份-2蒙版" transform="translate(428.000000, 48.000000)">
+                <g id="编组-49" transform="translate(240.000000, 21.000000)">
+                    <g id="编组-52" transform="translate(207.000000, 0.000000)">
+                        <g id="椭圆形">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="收-藏-(2)" transform="translate(8.500000, 10.000000)" fill="#FF117D" fill-rule="nonzero">
+                            <path d="M12.7818159,0.00180209664 C11.2869142,0.00180209664 9.90091257,0.754202972 8.9802115,1.99170441 C8.06941044,0.754202972 6.67350881,0.00180209664 5.17860707,0.00180209664 C2.48580394,0.00180209664 0.297901394,2.39760488 0.297901394,5.33790831 C0.297901394,7.09021034 1.0800023,8.32771178 1.71360304,9.31771294 C3.54510517,12.1986163 8.15851054,15.7725204 8.35651077,15.9210206 C8.54461099,16.0695208 8.76241124,16.1388209 8.9802115,16.1388209 C9.19801175,16.1388209 9.415812,16.0695208 9.60391222,15.9210206 C9.80191245,15.7725204 14.4054178,12.1887163 16.24682,9.31771294 C16.8804207,8.32771178 17.6625216,7.09021034 17.6625216,5.33790831 C17.6625216,2.39760488 15.4746191,0.00180209664 12.7818159,0.00180209664 Z" id="路径"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
