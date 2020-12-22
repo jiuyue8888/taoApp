@@ -11,6 +11,7 @@
 </script>
 
 <style>
+	@import url("animate.css");
 	* {
 		padding: 0;
 		margin: 0;
@@ -22,5 +23,8 @@
 		-moz-osx-font-smoothing: grayscale;
 		text-align: center;
 
+	}
+	svg{
+		max-width: 100%;
 	}
 </style>
