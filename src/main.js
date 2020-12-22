@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import './icons';
-import 'lib-flexible'
+import 'amfe-flexible';
 
 Vue.config.productionTip = false
 
