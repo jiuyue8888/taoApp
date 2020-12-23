@@ -172,7 +172,7 @@
 		position: relative;
 		width: 100%;
 		min-height: 100vh;
-		max-width: 450px;
+		
 		overflow: hidden;
 		background: url(../../assets/bg.jpg) no-repeat 0 0 #5608a9;
 		background-size: 100%;
